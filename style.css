@@ -1,0 +1,63 @@
+h1 {
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.results {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.score {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#human-score, #computer-score {
+    font-size: 100px;
+}
+
+.selection {
+    margin-top: 60px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding:40px ;
+    font-size: 36px;
+    height: auto;
+    min-width: 200px;
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    min-height: 50px;
+}
